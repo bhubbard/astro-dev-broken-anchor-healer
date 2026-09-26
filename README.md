@@ -4,8 +4,11 @@
 [![Astro](https://img.shields.io/badge/Astro-5.x%20%7C%206.x%20%7C%207.x-FF5D01?style=flat-square&logo=astro)](https://astro.build)
 [![Chrome AI](https://img.shields.io/badge/Chrome%20Built--in%20AI-Gemini%20Nano-4285F4?style=flat-square&logo=googlechrome)](https://developer.chrome.com/docs/ai/built-in)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-code.brandonhubbard.com-brightgreen?logo=github)](https://code.brandonhubbard.com/astro-dev-broken-anchor-healer/)
 
 **astro-dev-broken-anchor-healer** is an intelligent Astro Dev Toolbar integration that audits all internal anchor links (`<a href="#...">`) on your active pages against registered DOM `id` targets. When broken or renamed anchor targets are detected, it prompts **Gemini Nano** (`window.ai.languageModel`) on-device to semantically match the intended heading and offers one-click DOM healing right from your browser toolbar.
+
+> 🎮 **Live Interactive Visualizer & Demo:** [astro-dev-broken-anchor-healer on code.brandonhubbard.com](https://code.brandonhubbard.com/astro-dev-broken-anchor-healer/)
 
 ---
 
